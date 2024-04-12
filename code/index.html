@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Shopping site</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header--menu">
+        <div class="burger--icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="search--box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search..." id="" />
+        </div>
+        <div class="menu--icons">
+          <i class="fa-solid fa-bowl-food"></i>
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="cover">
+      <div class="cover-overlay">
+        <h1>Quick Drip</h1>
+        <span class="slogan"
+          >From Heels to Sneakers, We've Got Your Feet Covered.</span
+        >
+      </div>
+    </section>
+
+    <main>
+      <h2 class="section-heading">Shoes List</h2>
+      <div class="menu--list">
+        <div class="menu-item">
+          <img src="../images/air-jordan-13.jpg" alt="" />
+          <h5>Air Jordan 23</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/1.jpg" alt="" />
+          <h5>Jordan 1</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/d6202f062d4659943ebf353d99e4c219.webp" alt="" />
+          <h5>Wood</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/download (1).jpeg" alt="" />
+          <h5>White Air Force</h5>
+        </div>
+        <div class="menu-item">
+          <img
+            src="../images/galaxy-styled-nike-air-max-90_400x333.jpg"
+            alt=""
+          />
+          <h5>Air max</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/images (1).jpeg" alt="" />
+          <h5>Upper Jordan 1</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/images (2).jpeg" alt="" />
+          <h5>Lebron</h5>
+        </div>
+        <div class="menu-item">
+          <img src="../images/images (3).jpeg" alt="" />
+          <h5>Supress</h5>
+        </div>
+
+        <h2 class="section-heading">Shoes Shopping Items</h2>
+        <br />
+        <div class="card--list">
+          <div class="card">
+            <img src="../images/images (5).jpeg" alt="" />
+            <h4 class="card--title">Deux hash</h4>
+
+            <div class="card--price">
+              <div class="price">$30.50</div>
+              <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="../images/images.jpeg" alt="" />
+            <h4 class="card--title">Jordan - 3</h4>
+
+            <div class="card--price">
+              <div class="price">$30.50</div>
+              <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="../images/jordan-11.jpg" alt="" />
+            <h4 class="card--title">Jordan - 11</h4>
+
+            <div class="card--price">
+              <div class="price">$30.50</div>
+              <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="../images/shoes.webp" alt="" />
+            <h4 class="card--title">Drip Air Force</h4>
+
+            <div class="card--price">
+              <div class="price">$30.50</div>
+              <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="../images/images (4).jpeg" alt="" />
+            <h4 class="card--title">Star snickers</h4>
+
+            <div class="card--price">
+              <div class="price">$30.50</div>
+              <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-close">
+          <i
+            style="margin-top: 4rem; margin-right: 1.3rem; font-size: 2rem"
+            class="fa-solid fa-close"
+          ></i>
+        </div>
+        <div class="cart-menu">
+          <h3 style="margin-top: 2rem; font-size: 2.5rem" class="title">
+            My Cart
+          </h3>
+          <div class="cart-items"></div>
+        </div>
+
+        <div class="sidebar--footer">
+          <div class="total--amount">
+            <h5 class="h5">Total</h5>
+            <div class="cart-total">$.00</div>
+          </div>
+          <button class="checkout-btn">Check Out</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
